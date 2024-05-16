@@ -9,8 +9,8 @@ library(thematic)
 
 
 # Charger les données
-depenses <- read_excel("~/master 1 IA/R_shine/Activite_shiny _oncadvive/depenses-remboursees.xlsx")
-Total_depenses <- read_excel("~/master 1 IA/R_shine/Activite_shiny _oncadvive/Total_cancer.xlsx")
+depenses <- read_excel("./depenses-remboursees.xlsx")
+Total_depenses <- read_excel("./Total_cancer.xlsx")
 
 
 # Identifier les colonnes numériques du excel depense-rembousees
