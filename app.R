@@ -202,7 +202,7 @@ output$dataTable <- renderDT({
            "2" = list(
              h4("Depuis quand cette association existe ?"),
              br(),
-             p("L'association existe depuis un an. Elle est toujours en développement. Cependant, une version bêta de l'application devrait apparaître d'ici quelques mois afin de recueillir les premiers avis."),
+             p("L'association existe depuis un an. Elle est toujours en développement. Cependant, elle a bien débuté son aventure :"),
              tags$div(
              img(src="an.png", height=300),
              style="text-align: center;"
